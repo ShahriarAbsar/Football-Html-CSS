@@ -1,0 +1,508 @@
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D25A0;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+.banner .left-banner{
+    margin-left: 156px;
+    width: 485px;
+}
+.banner .left-banner h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    transition: transform 1s ease-in-out, padding-bottom 1s ease-in-out;
+    cursor: default;
+    margin-top:0px;
+    margin-bottom: 0px;
+
+}
+.banner .left-banner div ul{
+    display: flex;
+    list-style: none;
+    top: 464px;
+    width: 168px;
+    height: 44px;
+    padding-left: 0px;
+    background-color: #E02C6D;
+    cursor: pointer;
+    transition: margin-left .3s ease-in-out 1s;
+}
+
+
+.banner .left-banner div ul .live{
+    padding-right: 8px;
+    margin-left: 24px;
+}
+
+.banner .left-banner div ul li{
+    margin-top: 10px;
+}
+
+.banner .left-banner div ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner .right-banner{
+    margin-right: 156px;
+}
+.banner .right-banner img{
+    width: 556.01px;
+    left: 1299.01px;
+    top: 153px;
+    transition: transform 1s ease-in-out, padding-bottom 1s ease-in-out, padding-top 1s ease-in-out
+
+}
+
+
+
+.banner:hover .banner-player{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transform: scale(1.2);
+}
+.banner:hover h1{
+    transform: scale(1.2);
+    padding-bottom: 13px;
+    padding-left: 50px;
+    
+}
+
+.banner:hover .live-button{
+    margin-left: 110px;
+}
+
+
+
+
+.player-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.player-list .player-1{
+    justify-self: end;
+    margin-right: 18px;
+}
+.player-list .player-2 {
+    justify-self: center;
+}
+
+.player-list div{
+    width: 495px;
+    height: 711px;
+    background-color: #fff;
+}
+.player-list .player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-list div .player-1-info{
+    height: 388.266px;
+    width: 465px;
+    overflow: hidden;
+    margin: 15px;
+}
+.player-list div img{
+    width: 100%;
+    transition: transform 1s ease-in;
+    cursor: pointer;
+}
+.player-list div h2{
+    font-size: 38px;
+    font-weight: 700;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: color 1s ease-in;
+}
+.player-list div p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+
+
+.player:hover .player-img-1{
+    transform: scale(1.15);
+}
+.player:hover .player-name{
+    color: #3e4fe4;
+}
+
+.bottomBanner{
+    margin-top: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.bottomBanner .bot-banner-left{
+    margin-left: 156px;
+    width: 469px;
+}
+
+.bottomBanner .bot-banner-left h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: default;
+    transition: color 1s ease-in;
+}
+
+.bottomBanner .bot-banner-left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    text-align: justify;
+    padding-bottom: 10px;
+    cursor: default;
+}
+
+.bottomBanner .bot-banner-left div{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+}
+
+.bottomBanner .bot-banner-left div ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+.bottomBanner .bot-banner-left div ul .live{
+    padding-right: 8px;
+    margin-left: 24px;
+}
+
+.bottomBanner .bot-banner-left div ul li{
+    margin-top: 10px;
+}
+
+.bottomBanner .bot-banner-left div ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.bottomBanner .bot-banner-right{
+    margin-right: 156px;
+}
+
+.bottomBanner .bot-banner-right img{
+    width: 600px;
+}
+
+/*----------Bottom Banner Hover Effect----------*/
+
+.bottomBanner:hover .bot-banner-head{
+    color: #3e2ce0;
+}
+
+/* footer css style  */
+.footer{
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.footer .logo-socials{
+    justify-self: center;
+}
+
+.footer .logo-socials .logo{
+    width: 250px;
+}
+
+.footer .logo-socials .socials{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo-socials .socials a{
+    padding: 4px 8.57px;
+    border-radius: 50%;
+    font-size: 17px;
+    color: #969BAB;
+    background-color: rgba(0,0,0,0.1);
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.footer .logo-socials .socials a i{
+    font-size: 17px;
+    color: #969BAB;
+}
+
+.footer .logo-socials p{
+    padding-top: 10px;
+    padding-left: 46px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1700px)
+{
+    .player-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+    }
+
+    .player-list .player-1{
+        justify-self: end !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .player-list .player-2{
+        justify-self: start !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .player-list div h2 {
+        font-size: 33px;
+    }
+}
+
+@media only screen and (max-width: 1550px)
+{
+    .left-banner {
+        width: 416px;
+    }
+
+    .banner .right-banner img {
+        width: 490px;
+    }
+
+    .banner .left-banner h1 {
+        font-size: 50px;
+    }
+
+    .bottomBanner .bot-banner-left {
+        width: 382px;
+    }
+
+    .bottomBanner .bot-banner-left h1 {
+        font-size: 39px;
+    }
+
+    .bottomBanner .bot-banner-right img {
+        width: 465px;
+    }
+
+    .banner:hover .live-button{
+        margin-left: -19px;
+    }
+}
+
+@media only screen and (max-width: 1250px)
+{
+    .banner {
+        padding-bottom: 45px;
+    }
+
+    .banner .left-banner {
+        width: 266px;
+    }
+
+    .banner .right-banner img {
+        width: 329px;
+    }
+
+    .banner .left-banner h1 {
+        font-size: 36px;
+    }
+
+    .player-list div h2 {
+        font-size: 28px;
+    }
+
+    .bottom-banner .bot-banner-left {
+        width: 294px;
+    }
+
+    .bottom-banner .bot-banner-left h1 {
+        font-size: 30px;
+    }
+
+    .bottom-banner .bot-banner-right img {
+        width: 328px;
+    }
+
+    .footer .logo-socials .logo {
+        width: 125px;
+        margin-left: 65px;
+    }
+
+    .banner:hover .live-button{
+        margin-left: -9px;
+        
+    }
+}
+
+@media only screen and (max-width: 1100px)
+{
+
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 45px;
+        grid-row-gap: 30px;
+    }
+
+    .banner .left-banner {
+        width: 266px;
+    }
+
+    .banner .right-banner{
+        justify-self: end;
+    }
+
+    .banner .right-banner img {
+        width: 329px;
+    }
+
+    .banner .left-banner h1 {
+        font-size: 36px;
+    }
+
+    .player-list .player{
+        width: 330px;
+        height: 474px;
+    }
+
+    .player-list .player .player-img-1{
+        width: 300px;
+        height: 256px;
+    }
+
+    .player-list .player p{
+        display: none;
+    }
+
+    .player-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 50px;
+    }
+
+    .player-list div .player-1-info {
+        height: 256px;
+        width: 300px;
+    }
+
+    .player-list div h2 {
+        font-size: 28px;
+    }
+
+    .bottomBanner {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+
+    .bottomBanner .bot-banner-left {
+        justify-self: center;
+        width: 294px;
+        margin-left: 0px;
+    }
+
+    .bottomBanner .bot-banner-right {
+        justify-self: center;
+        width: 294px;
+        margin-right: 0px;
+    }
+
+    .bottomBanner .bot-banner-left h1 {
+        font-size: 30px;
+    }
+
+    .bottomBanner .bot-banner-right img {
+        width: 294px;
+    }
+
+    .footer{
+        margin-top: 100px;
+    }
+
+    .footer .logo-socials .logo {
+        width: 125px;
+        margin-left: 65px;
+    }
+}
+
+@media only screen and (max-width: 800px)
+{
+    .banner .left-banner{
+        justify-self: center;
+        margin-left: 0px;
+        width: 266px;
+    }
+
+    .banner .right-banner{
+        justify-self: center;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 688px)
+{
+    .player-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+    }
+
+    .player-list .player{
+        justify-self: center !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        width: 330px;
+        height: 474px;
+    }
+
+    .player-list .player .player-img-1{
+        width: 300px;
+        height: 256px;
+    }
+
+    .player-list .player p{
+        display: none;
+    }
+}
